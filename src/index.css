@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    overflow-x: hidden;
+}
+#img1_1{
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+#img1_2{
+    clip-path: polygon(0 50%, 50% 0, 100% 50%, 50% 100%);
+}
+#img2_1{
+    clip-path: polygon(100% 0, 100% 40%, 50% 100%, 0 40%, 0 0);
+}
+#img2_2{
+    clip-path: polygon(0 50%, 50% 0, 100% 50%, 50% 100%);
+}
+#img2_3{
+    clip-path: polygon(0 50%, 50% 0, 100% 50%, 50% 100%);
+}
+#top{
+    clip-path: polygon(50% 47%, 0 100%, 100% 100%);
+
+}
